@@ -73,4 +73,10 @@ public class Tree {
         }
     }
 
+ // added code for preorder traversal
+    public void traversePreOrder() {
+        if (root != null) {
+            root.traversePreOrder();
+        }
+    }
 }
